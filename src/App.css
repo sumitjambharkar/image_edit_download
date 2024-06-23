@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #fde4e4;
+}
+
+.section img {
+  width: 100%;
+  border: 1px solid black;
+  /* padding: 6px; */
+}
+
+.section {
+  width: 50%;
+}
+
+.disabled-button {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.enabled-button {
+  cursor: pointer;
+}
